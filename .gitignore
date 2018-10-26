@@ -1,3 +1,9 @@
+# Secret judging data
+data/winemag-data-test.csv
+
+# VS Code
+.vs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

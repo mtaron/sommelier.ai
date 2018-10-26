@@ -1,0 +1,12 @@
+name: sommelier
+
+channels:
+  - conda-forge
+
+dependencies:
+  - scikit-learn
+  - pandas
+  - jupyterlab
+  - nb_conda
+  - matplotlib
+  - seaborn
