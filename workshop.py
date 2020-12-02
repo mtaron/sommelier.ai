@@ -5,10 +5,10 @@ import pandas as pd
 from sklearn.pipeline import Pipeline
 
 
-def boxplot_sorted(df: pd.DataFrame, by, column, vert=False, figsize=(10,12), patch_artist=True, **kwds):
+def boxplot_sorted(df: pd.DataFrame, by, column, vert=False, patch_artist=True, **kwds):
     df2 = pd.DataFrame({col:vals[column] for col, vals in df.groupby(by)})
     meds = df2.median().sort_values()
-    df2[meds.index].boxplot(vert=vert, figsize=figsize, patch_artist=patch_artist, **kwds)
+    df2[meds.index].boxplot(vert=vert, patch_artist=patch_artist, **kwds)
 
 
 def show_most_informative_features(model, vectorizer=None, classifier=None, n=20):
