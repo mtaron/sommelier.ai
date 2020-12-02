@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sommelier.ai"
+version = "0.1.0"
+description = "A practical workshop on scikit-learn using wine reviews."
+authors = ["Michael Taron"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+scikit-learn = "^0.23.2"
+pandas = "^1.1.4"
+
+[tool.poetry.dev-dependencies]
+notebook = "^6.1.5"
+matplotlib = "^3.3.3"
+seaborn = "^0.11.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

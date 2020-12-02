@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.venv": true,
+        "**/*.egg-info": true,
+        "**/__pycache__": true
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "python.pythonPath": ".venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true
+}
